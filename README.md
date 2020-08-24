@@ -4,13 +4,13 @@ This package is a basic sentiment analyzer
 ## About `sentipy`
 `Sentipy` attempts to classify a text into `positive`, `negative` or `neutral`
 sentiment. It uses Spacy's `textcat` with ensemble architecture in the back-end.
-The objective of this package is to classify the sentiments as accurately as
-possible
+The ultimate objective of this package is to classify the sentiments as
+accurately as possible
 
-While the sentiment analysis at the core is absolutely basic, the focus is to
-understand the features the model is learning. `sentipy` leverages on `lime` to
-get the features learnt and uses `streamlit` to crate a simple webapp that helps
-with the visualization
+While the sentiment analysis at the core is absolutely basic, the current focus
+is to understand the features the model is learning. `sentipy` leverages on
+`lime` to get the features learnt and uses `streamlit` to crate a simple webapp
+that helps with the visualization
 
 ## How to install `sentipy`
 1. git clone the repo in to your local system

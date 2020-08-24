@@ -3,7 +3,7 @@ import pandas as pd
 from lime.lime_text import LimeTextExplainer
 from spacy.util import load_model_from_path
 from os.path import join, dirname, abspath
-from utils import process_patterns
+from sentipy.utils import process_patterns
 import matplotlib.pyplot as plt
 import click
 import streamlit.cli

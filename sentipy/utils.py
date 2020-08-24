@@ -1,11 +1,11 @@
 import re
-from patterns import (like_currency, like_date, like_link, like_mentions,
-                      like_number)
+from sentipy.patterns import (like_currency, like_date, like_link,
+                              like_mentions, like_number)
 import spacy
 
 
 # Initialize Spacy's English class
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 # Create a combined pattern
 combined_pattern = f'{like_currency}|{like_date}|{like_link}|{like_mentions}|{like_number}'

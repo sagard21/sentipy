@@ -1,0 +1,11 @@
+{
+  "exclusive_classes":true,
+  "architecture":"ensemble",
+  "labels":[
+    "neutral",
+    "positive",
+    "negative"
+  ],
+  "pretrained_vectors":null,
+  "pretrained_dims":null
+}

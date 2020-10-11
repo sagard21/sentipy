@@ -24,3 +24,5 @@ On your terminal run `sentipy streamlit`
 2. Include visualizations for pre-processed text
 3. Make pre-processing options available on web app
 4. Better visualization
+
+test by Quid

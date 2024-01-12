@@ -1,4 +1,4 @@
 spacy==2.3.2
 flake8==3.8.3
-streamlit==0.64.0
+streamlit==1.30.0
 lime
